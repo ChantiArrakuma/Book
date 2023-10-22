@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>Flist.qml</file>
+        <file>ConnWind.qml</file>
+        <file>BookGrid.qml</file>
+        <file>SearchBar.qml</file>
+        <file>TestSrc/1.png</file>
+        <file>TestSrc/2.jpg</file>
+        <file>TestSrc/3.png</file>
+        <file>TestSrc/4.png</file>
+        <file>BookInfoContent.qml</file>
+        <file>Folder.qml</file>
+        <file>BookInfoPopup.qml</file>
+    </qresource>
+</RCC>
