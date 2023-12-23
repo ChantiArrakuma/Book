@@ -11,50 +11,21 @@ Rectangle {
     ListModel {
         id: testModel
         ListElement {
-            bookName: "Pochemu"
+            bookName: "The beloved country"
             src: "./TestSrc/1.png"
             bookId: "1"
             price: "10"
             description: "bla-bla 100"
-
         }
         ListElement {
-            bookName: "gesugao book"
+            bookName: "AUTUMN"
             src: "./TestSrc/2.jpg"
             bookId: "2"
             price: "20"
             description: "bla-bla 200"
         }
         ListElement {
-            bookName: "Yhaaaan"
-            src: "./TestSrc/3.png"
-            bookId: "3"
-            price: "30"
-            description: "bla-bla 300"
-        }
-        ListElement {
-            bookName: "Gryu Bible"
-            src: "./TestSrc/4.png"
-            bookId: "4"
-            price: "40"
-            description: "bla-bla 400"
-        }
-        ListElement {
-            bookName: "Yhaaaan"
-            src: "./TestSrc/3.png"
-            bookId: "3"
-            price: "30"
-            description: "bla-bla 300"
-        }
-        ListElement {
-            bookName: "Gryu Bible"
-            src: "./TestSrc/4.png"
-            bookId: "4"
-            price: "40"
-            description: "bla-bla 400"
-        }
-        ListElement {
-            bookName: "Yhaaaan"
+            bookName: "spring is coming"
             src: "./TestSrc/3.png"
             bookId: "3"
             price: "30"
