@@ -7,7 +7,7 @@ Rectangle {
 
     Button {
         anchors.centerIn: parent
-        text: qsTr("Подключение")
+        text: qsTr("Connect")
 
         onClicked: {
             root.visible = false

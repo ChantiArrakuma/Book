@@ -49,7 +49,7 @@ ColumnLayout {
         Layout.alignment: Qt.AlignHCenter
         palette.button: altColor1
         palette.buttonText: "white"
-        text: qsTr("В корзину %1").arg(book.price)
+        text: qsTr("Add to cart %1").arg(book.price)
 
         onClicked: {
             mainWindow.folderObjects.push(book)

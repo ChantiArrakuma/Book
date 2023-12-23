@@ -10,16 +10,16 @@ Rectangle {
         id: testFilterModel
 
         ListElement {
-            fltr: "Романтика"
+            fltr: qsTr("Romance")
         }
         ListElement {
-            fltr: "Боевик"
+            fltr: qsTr("Action")
         }
         ListElement {
-            fltr: "Детектив"
+            fltr: qsTr("Detective")
         }
         ListElement {
-            fltr: "Философия"
+            fltr: qsTr("Philosophy")
         }
     }
 
@@ -51,7 +51,7 @@ Rectangle {
                             anchors.centerIn: parent
                             color: mainColor
                             text: fltr
-                            font.pointSize: mainWindow.height/50 //QFont::setPointSizeF: Point size <= 0 (0.000000), must be greater than 0
+                            font.pointSize: mainWindow.height/50
                             font.family: "Lucida console"
                             font.bold: true
                         }
@@ -72,7 +72,6 @@ Rectangle {
             height: root.height/5
             width: root.width*0.8
             color: mainColor
-            //radius: 10
         }
 }
 

@@ -88,6 +88,6 @@ Rectangle {
                     })
                 }
             }
-        } // Rectangle
+        }
     }
 }

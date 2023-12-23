@@ -5,42 +5,6 @@ Popup {
     id: root
     dim: true
 
-    /*enter: Transition {
-        ParallelAnimation {
-            NumberAnimation {
-                properties: "scale";
-                duration: 150
-                from: 0.5
-                to: 1.0
-            }
-
-            NumberAnimation {
-                properties: "opacity";
-                duration: 150
-                from: 0.0
-                to: 1.0
-            }
-        }
-    }
-
-    exit: Transition {
-        ParallelAnimation {
-            NumberAnimation {
-                properties: "scale";
-                duration: 150
-                from: 1.0
-                to: 0.5
-            }
-
-            NumberAnimation {
-                properties: "opacity";
-                duration: 150
-                from: 1.0
-                to: 0.0
-            }
-        }
-    }*/
-
 
     signal closeClicked()
 

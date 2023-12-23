@@ -56,7 +56,7 @@ Rectangle {
                             width: parent.width*0.50
                             anchors.left: folderImageElement.right
                             anchors.verticalCenter: parent.verticalCenter
-                            text: "\n ID: "+bookId+"\n Name: "+bookName+"\n Price: "+price
+                            text: qsTr("\n ID: ") + bookId + qsTr("\n Name: ") + bookName + qsTr("\n Price: ") + price
                         }
                         Rectangle {
                             id: folderButtonElement
@@ -81,7 +81,7 @@ Rectangle {
 
                 anchors.margins: 10*scale
 
-                text: qsTr("Купить")
+                text: qsTr("Buy")
                 background: Rectangle{
                     radius: 10
                     color: altColor1

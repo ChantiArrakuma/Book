@@ -97,8 +97,6 @@ Window {
                 }
 
                 onClicked: {
-                    //print(folderObjects)
-                    //folderMainButton.text = folderObjects.length
                     folderWindow.visible = true
                     var newModel = folderListModelComponent.createObject(mainWindow);
                     for(var i = 0; i < folderObjects.length; i++) {
